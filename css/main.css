@@ -109,7 +109,7 @@ label[for="nav-trigger"] {
     height: 100%;
     width: 8%;
     cursor: pointer;
-    background-image: url(../_images/Menu.png);
+    background-image: url(../images/Menu.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
@@ -136,7 +136,7 @@ label[for="nav-trigger"] {
 
 .photo_background {
     display: block;
-    background-image: url(../_images/background.png);
+    background-image: url(../images/background.png);
     height: 100%;
 }
 

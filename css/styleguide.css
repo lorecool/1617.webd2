@@ -1,14 +1,71 @@
-/** {
-  box-sizing: border-box;
-}*/
-
-body {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ul {
+    list-style: none;
 }
 
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.42;
+}
 
-/*hero image*/
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.42;
+}
+
+.photo_profile {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.photo_background {
+    display: block;
+    background-image: url(../_images/background.png);
+    height: 100%;
+}
+
+.photo_background p {
+    color: #fff;
+}
+
+.portfolio h1,
+.portfolio h2 {
+    color: rgba(0, 40, 50, 1);
+}
+
+.portfolio_big {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.portfolio_item {
+    margin-top: 5px;
+    width: 250px;
+    margin-right: 5px;
+}
+
+.portfolio_item img {
+    border-radius: 50%;
+}
+
+.whitespace {
+    margin-top: 50px;
+}
+
+.whitespace.last {
+    margin-bottom: 250px;
+}
 
 .hero {
     background: #DDD url('https://unsplash.it/1200/600?image=0&blur') no-repeat;
@@ -50,8 +107,6 @@ body {
 .hero__button:hover {
     color: #333;
     background: #FFF;
-    zoom: 120%;
-    transition: ease-in 0.2s;
 }
 
 
@@ -123,56 +178,6 @@ label[for="nav-trigger"] {
 .nav-trigger:checked+.navigation {
     right: 0px;
     transition: right 0.2s;
-}
-
-
-/*profiel*/
-
-.photo_profile {
-    display: block;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.photo_background {
-    display: block;
-    background-image: url(../_images/background.png);
-    height: 100%;
-}
-
-.photo_background p {
-    color: #fff;
-}
-
-
-/*portfolio*/
-
-.portfolio h1,
-.portfolio h2 {
-    color: rgba(0, 40, 50, 1);
-}
-
-.portfolio_big {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.portfolio_item {
-    margin-top: 5px;
-    width: 250px;
-    margin-right: 5px;
-}
-
-.portfolio_item img {
-    border-radius: 50%;
-}
-
-.whitespace {
-    margin-top: 50px;
-}
-
-.whitespace.last {
-    margin-bottom: 125px;
 }
 
 

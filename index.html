@@ -52,6 +52,8 @@
 
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+    <!--Main javescript-->
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -97,7 +99,8 @@
             <!--header_image-->
             <section class="hero" id="home">
                 <div class="hero__text">
-                    <h2 class="hero__title">Spotlight item van de week</h2>
+                    <h2 class="hero__title">Welkom Bij Lighthouse Design Agency</h2>
+                    <p>Waar wij jouw dromen visualiseren</p>
                     <p>Zie meer van deze ontwerper</p>
                     <a href="#lorenzo" class="hero__button">Toon mij meer!</a>
                 </div>
@@ -107,14 +110,15 @@
             <div class="grid__row" id="lorenzo">
                 <div class="whitespace">
                     <div class="grid__column-4 photo_profile">
-                        <img src="images/naam01.png" alt="naam01">
+                        <img src="images/naam01.png" alt="Lorenzo Coole">
                     </div>
                     <div class="grid__column-8 photo_background">
                         <div class="grid__row">
                             <div class="grid__column-6 grid__offset-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, voluptates quibusdam quidem est quasi esse explicabo? Dolorum, praesentium cumque, sed culpa aliquam rem eligendi facere perferendis autem debitis quia vel!
+                                <p>Ik ben lorenzo,<br> een vrolijke jonge man die graag creatief bzig is en nieuwe dingen ontdekt. Ik leef me graag creatief uit op nieuwe projecten en liefst op projecten waarbij ik mijn kennis en vaardigheden kan uitbreidden.
                                 </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, voluptates quibusdam quidem est quasi esse explicabo? Dolorum, praesentium cumque, sed culpa aliquam rem eligendi facere perferendis autem debitis quia vel!
+                                <p>Naast tekenen ga ik ook graag op pad met mijn fototoestel. Ik ben iemand die graag op reis gaat, verloren loopt in een stad en dat hoeft niet eens een verre bestemming te zijn. Verder ben ik ook een dierenvriend en een
+                                    koffieverslaafde.
                                 </p>
                             </div>
                         </div>
@@ -126,39 +130,71 @@
                 <div class="grid__row" id="portfolio_Lorenzo">
                     <div class="whitespace">
                         <div class="grid__column-5 portfolio_big">
-                            <img src="images/portfolio_big.jpg" alt="portfolio_bigger">
+                            <img src="images/portfolio_big-1.jpg" alt="portfolio_bigger">
                         </div>
                         <div class=" grid__offset-1 grid__column-6">
                             <div class="grid__row">
-                                <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
-                                </div>
-                                <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                <div class="popup" onclick="portfolioDetail()">
+                                    <div class="grid__column-6 portfolio_item">
+                                        <img src="images/portfolio-1.png" alt="portfolio_item">
+                                    </div>
+                                    <div class="grid__column-6">
+                                        <h3>Toby</h3>
+                                        <p>Mijn hond is mijn beste vriend! Meestal een kleine deugniet maar zoals je kan zien ook een fantastisch model, dus deze mocht zeker niet ontbreken in mijn portfolio.Ik werk natuurlijk graag met alle dieren.
+                                            <br><strong> Klik voor meer details...</strong>
+                                        </p>
+                                    </div>
+                                    <span class="popuptext" id="portfolioDetail">
+                                        <div class="grid__wrapper">
+                                            <div class="grid__container">
+                                                <div class="grid__row">
+                                                    <div class="grid__column-2">
+                                                        <img src="http://lorempixel.com/400/200">
+                                                    </div>
+                                                    <div class="grid__column-4">
+                                                        <p id="right">Ik fotograaf graag dieren want ze stralen ontschuld uit, ze zijn meestal speels en de meesten zoals toby werken ook goed mee. Poses bij dieren kan je toch niet forceren.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="grid__row">
+                                                    <div class="grid__column-4">
+                                                        <p id="left">Door het blauw te gebruiken kon ik Toby zijn onschuldige maar zielige blik benadrukken waardoor het beeld een diepere indruk nalaat wanneer je er naar kijkt. 
+                                                        </p>
+                                                    </div>
+                                                    <div class="grid__column-2">
+                                                        <img src="http://lorempixel.com/400/200">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </span>
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Bob de koala</h3>
+                                    <p>één van mijn meest recente projecten was het bedenken en uitwerken van een animatiefiguurtje. Na de briefing en enig opzoekwerk heb ik gekozen voor het meest schattige diertje wat minder schattig te maken.</p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-2.png" alt="portfolio_item">
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-6.png" alt="portfolio_item">
                                 </div>
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Be Human project</h3>
+                                    <p>Voor een kortdurig project werd er mij gevraagd een concept uit te werken en te ontwerpen voor een thema die velen aanbelangt. het ontwerp moest simpel zijn maar toch uitdagend en daardoor een aandachtstrekker worden.</p>
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Graffitistraatje Gent</h3>
+                                    <p>ik hou van contrasterende foto's en van ronddwalen op plekken die mensen tegenwoordig vergeten! Deze plek is voor mij persoonlijk één van de mooiere plekken in Gent en dit wou ik vastleggen en delen met iedereen</p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-3.png" alt="portfolio_item">
                                 </div>
                             </div>
                         </div>
@@ -169,42 +205,50 @@
                     <div class="whitespace">
                         <div class="grid__column-5">
                             <h2>Mijn Portfolio</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                            <p>Ik hou van zeer uit één lopende projecten en uitdagingen. Deze inspireren mij om mezelf steeds uit te dagen het nog beter te doen en telkens unieke concepten te bedenken voor klanten.</p>
+                            <p>Wat ik dus niet doe is tweemaal hetzelfde ontwerp maken of mij volledig baseren op een bestaande publicatie. Huisstijlen natuurlijk dan weer wel omdat deze een uiteindelijk een uniek totaal concept zullen vormen.</p>
+                            <p>Mijn voornaamste bezigheid is grafisch ontwerp, dit kan gaan van concept Design tot een volledige uitwerking van een publicatie of productverpakking. Zowel illustratief als typografisch.</p>
+                            <p>Mijn tweede grote passie die ik graag toepas in mijn werk is fotografie, ik fotografeer vooral landschappen of urban en doe dit meestal in zwart-wit omdat ik vind dat dit een extra karaktertrekje geeft aan je foto's. Natuurlijk
+                                als een klant wenst voor een ander soort foto zoals portret of kleur is dit geen probleem.</p>
                         </div>
                         <div class=" grid__offset-1 grid__column-6">
                             <div class="grid__row">
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-5.png" alt="portfolio_item">
                                 </div>
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Colourful Ghent</h3>
+                                    <p>Als afwisseling met zwart-wit fotografie trek ik er ook graag eens op uit om mooie plaatjes te maken in kleur om zo de prachtige wereld vast te leggen en eventuel te gebruiken in toekomstig drukwerk.</p>
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Memory spel</h3>
+                                    <p>Voor een project werd er mij gevraagd een memory spel te creeeren voor kinderen met een zelfgekozen thema. Uiteindelijk bestond het project uit het maken van de kaartjes en het ontwerpen van het verpakkingsdoosje.</p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-8.png" alt="portfolio_item">
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-10.png" alt="portfolio_item">
                                 </div>
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Product photography</h3>
+                                    <p>Naast het vastleggen van dieren, landschappen en steden ontwikkel ik ook mijn vaardigenheden voor product photography om op deze manier het product van klanten om hun meest prachtige manier vast te leggen.</p>
+
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Schetsen!</h3>
+                                    <p>Schetsen is en blijft een belangrijk deel van het ontwerpproces en op deze manier kan je ook snel iets tonen aan je klant om te weten of je op goede weg om aan alle wensen te voldoen en er een geslaagd project van te
+                                        maken.
+                                    </p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-12.png" alt="portfolio_item">
                                 </div>
                             </div>
                         </div>
@@ -214,41 +258,45 @@
                     <div class="whitespace">
                         <div class="grid__column-5">
                             <h2>Mijn werkgeschiedenis</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                            <p>Ik ben een beginnend grafisch ontwerper en heb dus nog niet zoveel werkervaring in de grafische sector. Ik doe wel zo vaak als mogelijk mee aan wedstrijden en open briefings waar er een grafisch designer gezocht wordt</p>
+                            <p>Ik ben vaak en graag bezig aan projecten. Zowel kort durende als lang lopende projecten. Ik hou van de afwisseling en de ervaring die ik op doe bij beide.</p>
+
                         </div>
                         <div class=" grid__offset-1 grid__column-6">
                             <div class="grid__row">
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-9.png" alt="portfolio_item">
                                 </div>
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Cloudy day</h3>
+                                    <p>Een zonnige maar bewolkte dag in Gent zorgde er voor dat ik deze mooie contrasterende foto kon vastleggen in zwart-wit om een mooier effect en een groter contrast te bekomen.</p>
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Graffitistraatje in kleur</h3>
+                                    <p>Omdat het leven niet zwart-wit is en je soms kleur nodig hebt om de pracht van iets vast te leggen ben ik terug gegaan naar het graffitistraatje en heb ik geprobeerd de prachtige kleuren te tonen die ik daar aantrof.</p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-7.png" alt="portfolio_item">
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-11.png" alt="portfolio_item">
                                 </div>
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>De niet zo populaire plaatsen</h3>
+                                    <p>Ik fotografeer het liefst de minder bekende plaatsen, de plaatsen die zo mooi zijn maar voor zeer uit eenlopende redenen niet zo populair zijn en dus vergeten of genegeerd worden door de meesten.</p>
                                 </div>
                             </div>
                             <div class="grid__row">
                                 <div class="grid__column-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo temporibus dolor ipsa beatae repellat a deleniti, qui alias quasi impedit reiciendis, sapiente et dolores nam eaque reprehenderit fugiat dolorum!</p>
+                                    <h3>Into the woods</h3>
+                                    <p>Naast dieren en cityscapes hou ik er ook van om de natuur in te trekken en deze prachtige wereld vast te leggen. Dit doe ik zowel in zwart-wit als kleur als afwisseling en op mijn vaardigheden te verbeteren.</p>
                                 </div>
                                 <div class="grid__column-6 portfolio_item">
-                                    <img src="images/portfolio-1.jpg" alt="portfolio_item">
+                                    <img src="images/portfolio-4.png" alt="portfolio_item">
                                 </div>
                             </div>
                         </div>
@@ -260,7 +308,7 @@
             <div class="grid__row" id="bo">
                 <div class="whitespace">
                     <div class="grid__column-4 photo_profile">
-                        <img src="images/naam01.png" alt="naam01">
+                        <img src="images/naam02.png" alt="Bo Coole">
                     </div>
                     <div class="grid__column-8 photo_background">
                         <div class="grid__row">
@@ -279,7 +327,7 @@
                 <div class="grid__row" id="portfolio_bo">
                     <div class="whitespace">
                         <div class="grid__column-5 portfolio_big">
-                            <img src="images/portfolio_big.jpg" alt="portfolio_bigger">
+                            <img src="images/portfolio_big-1.jpg" alt="portfolio_bigger">
                         </div>
                         <div class=" grid__offset-1 grid__column-6">
                             <div class="grid__row">
@@ -414,7 +462,7 @@
             <div class="grid__row" id="toby">
                 <div class="whitespace">
                     <div class="grid__column-4 photo_profile">
-                        <img src="images/naam01.png" alt="naam01">
+                        <img src="images/naam03.png" alt="Toby">
                     </div>
                     <div class="grid__column-8 photo_background">
                         <div class="grid__row">
@@ -433,7 +481,7 @@
                 <div class="grid__row" id="portfolio_toby">
                     <div class="whitespace">
                         <div class="grid__column-5 portfolio_big">
-                            <img src="images/portfolio_big.jpg" alt="portfolio_bigger">
+                            <img src="images/portfolio_big-3.jpg" alt="portfolio_bigger">
                         </div>
                         <div class=" grid__offset-1 grid__column-6">
                             <div class="grid__row">
@@ -572,11 +620,11 @@
                         </div>
                     </div>
                     <div class="grid__column-8 about_tekst">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
+                        <p>wij zijn een jong en dynamisch team die graag elke uitdaging aangaan en op deze manier voor elke klant een uniek concept bedenken en uitwerken op eender welke media dat dit gewenst is.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
+                        <p>Wij streven naar perfectie en werken binnen de gestelde deadline. Wij staan open voor aanpassingen en feedback van onze klanten en zijn pas tevreden wanneer onze klanten tevreden zijn met de ontwerpen.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
+                        <p>Wij proberen alle wensen van de klant te verwerken in de ontwerpen in de mate van het mogelijke en creeeren voor elke klant een uniek ontwerp of huistijl.
                         </p>
                     </div>
                 </div>
@@ -589,12 +637,12 @@
                     </div>
                 </div>
                 <div class="grid__column-8 about_tekst">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
+                    <p>Wij staan voor unieke uitdagende creaties die en proberen al onze klanten tevreden te houden door al hun wensen te verwerken in het concept.
                     </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
+                    <p>Wij zijn eerlijk en willen en kunnen geen perfectie garanderen.
                     </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vero molestiae assumenda nam pariatur reprehenderit ducimus officiis ab tenetur qui. Quod ipsam repudiandae blanditiis nam mollitia eius perspiciatis, cumque aspernatur.
-                    </p>
+                    <p><strong>website is een examen opdracht voor het vak Webdesign II in de eerste schijf van de richting Grafische en Digitale Media aan de Artevelde Hogeschool te Gent.
+                    </strong></p>
                 </div>
             </div>
             <!--waar zitten we-->
@@ -701,11 +749,12 @@
                                     </div>
                                 </div>
                                 <div class="grid__row copyright">
-                                    <div class="grid__column-6">
-                                        <p>Copyright</p>
-                                    </div>
-                                    <div class="grid__column-6">
-                                        <p><a href="#" alt="disclaimer">disclaimer</a></p>
+                                    <div class="grid__column-12">
+                                        <p>© Lorenzo Coole - Lighthouse design Agency
+                                            <script>
+                                                copyrightYear();
+                                            </script>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

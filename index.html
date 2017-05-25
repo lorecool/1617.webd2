@@ -59,9 +59,9 @@
 <body>
     <!--begin hoofdnavigatie-->
     <nav>
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <div class="navigation">
-            <label for="nav-trigger"></label>
+        <span id="navIcon" onclick="openNav()"><img id="menu" src="images/menu.png" alt="menu"></span>
+        <div id="sideNav" class="navigation">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <ul>
                 <li>
                     <a href="#home">Home</a>

@@ -59,7 +59,7 @@ body {
 
 #navIcon img {
     font-size: 30px;
-    cursor: "pointer";
+    cursor: pointer;
     position: fixed;
     right: -25px;
     top: -60px;
@@ -103,6 +103,44 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+
+/*Scroll knop*/
+
+#naarBoven {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 150px;
+    /* Place the button at the bottom of the page */
+    right: 45%;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    /* Set a background color */
+    color: #FFF;
+    background-color: rgba(0, 40, 50, 1);
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 10px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 10px;
+    font-weight: 900px;
+    transition: 0.8s;
+}
+
+#naarBoven:hover {
+    color: #f1bf2f;
+    /* Add a dark-grey background on hover */
 }
 
 

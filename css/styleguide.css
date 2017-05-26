@@ -31,7 +31,7 @@ p {
 
 .photo_background {
     display: block;
-    background-image: url(../images/background.png);
+    background-image: url(../assets/images/background.png);
     height: 100%;
 }
 
@@ -164,7 +164,7 @@ label[for="nav-trigger"] {
     height: 100%;
     width: 8%;
     cursor: pointer;
-    background-image: url(../images/menu.png);
+    background-image: url(../assets/images/menu.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
